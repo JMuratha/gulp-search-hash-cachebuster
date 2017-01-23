@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/efm_it_gmbh/gulp-search-hash-cachebuster.git"
+    "url": "git+ssh://git@github.com:JMuratha/gulp-search-hash-cachebuster.git"
   },
   "keywords": [
     "gulp",
@@ -18,7 +18,7 @@
   ],
   "author": "Jan Muratha",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/efm_it_gmbh/gulp-search-hash-cachebuster#readme",
+  "homepage": "https://github.com/JMuratha/gulp-search-hash-cachebuster",
   "devDependencies": {
     "chai": "^3.5.0",
     "child_process": "^1.0.2",
