@@ -21,12 +21,15 @@
   "homepage": "https://bitbucket.org/efm_it_gmbh/gulp-search-hash-cachebuster#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "child_process": "^1.0.2",
     "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
     "mocha": "^3.2.0",
     "vinyl": "^2.0.1"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
-    "crypto": "0.0.3"
+    "crypto": "0.0.3",
+    "through2": "^2.0.3"
   }
 }

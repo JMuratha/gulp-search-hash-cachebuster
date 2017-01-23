@@ -105,8 +105,10 @@ Cachebuster.prototype = {
     var parts = searchString.split('&');
 
     parts.forEach(function (part) {
-      var subParts = part.split('=');
-      map[subParts[0]] = subParts[1];
+      if (part != '') {
+        var subParts = part.split('=');
+        map[subParts[0]] = subParts[1];
+      }
     });
 
     return map;

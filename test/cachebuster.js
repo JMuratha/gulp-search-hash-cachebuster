@@ -41,4 +41,11 @@ describe('cachebuster', function () {
 
     linkBaseTest(input, desiredOutput);
   });
+
+  it('search string appended to empty search string', function () {
+    var input = '<link rel="import" href="/test.html?">';
+    var desiredOutput = '<link rel="import" href="/test.html?cachebusterHash=542320bdfsg">';
+
+    linkBaseTest(input, desiredOutput);
+  });
 });
