@@ -1,0 +1,32 @@
+{
+  "name": "gulp-search-hash-cachebuster",
+  "version": "0.0.1",
+  "description": "Adds a hash to the url string of resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/efm_it_gmbh/gulp-search-hash-cachebuster.git"
+  },
+  "keywords": [
+    "gulp",
+    "hash",
+    "cache",
+    "cachebuster"
+  ],
+  "author": "Jan Muratha",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/efm_it_gmbh/gulp-search-hash-cachebuster#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "event-stream": "^3.3.4",
+    "mocha": "^3.2.0",
+    "vinyl": "^2.0.1"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "crypto": "0.0.3"
+  }
+}
