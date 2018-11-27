@@ -22,7 +22,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "child_process": "^1.0.2",
-    "event-stream": "^3.3.4",
+    "event-stream": "3.3.4",
     "gulp": "^3.9.1",
     "mocha": "^3.2.0",
     "vinyl": "^2.0.1"
